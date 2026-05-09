@@ -1,0 +1,34 @@
+# Arduino build artifacts
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+*.lst
+*.map
+
+# Arduino IDE / arduino-cli
+.arduino/
+*.cache
+*.tmp
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets (wifi creds, etc.)
+secrets.h
+config.local.h
+.env
